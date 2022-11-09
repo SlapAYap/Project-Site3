@@ -1,14 +1,13 @@
 // Skills icons - https://react-icons.github.io/react-icons/
 import {
-  FaHtml5,
-  FaCss3Alt,
+  FaPython,
+  FaJava,
   FaBootstrap,
   FaReact,
   FaGitAlt,
-  FaGithubSquare,
-  FaLink,
+  FaAws,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJavascript, SiPostgresql, SiTableau, SiLinkedin} from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -27,14 +26,14 @@ export { HeroDark as Dark };
 export const githubUsername = "SlapAYap";
 
 // Blog link icon (imported above)
-export const Blog = <FaLink />;
+export const Blog = <SiLinkedin />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  " Entry-level data analytics professional; Recently finished the Google Data Analytics Professional Certificate and looking to break into the field.";
+  "Entry-level data analytics professional; Recently finished the Google Data Analytics Professional Certificate and looking to find a job in the space.";
 
 /* Skills
  ************************************************************** 
@@ -43,13 +42,13 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    skill: <FaPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    skill: <FaJava className="display-4" />,
+    name: "Java",
   },
   {
     id: 3,
@@ -68,13 +67,13 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiPostgresql className="display-4" />,
+    name: "PostgreSQL",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaAws className="display-4" />,
+    name: "AWS",
   },
   {
     id: 8,
@@ -83,8 +82,8 @@ export const skillData = [
   },
   {
     id: 9,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
+    skill: <SiTableau className="display-4" />,
+    name: "Tableau",
   },
 ];
 
