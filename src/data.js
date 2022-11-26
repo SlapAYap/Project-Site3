@@ -2,12 +2,12 @@
 import {
   FaPython,
   FaJava,
-  FaBootstrap,
+  //FaBootstrap,
   FaReact,
   FaGitAlt,
   FaAws,
 } from "react-icons/fa";
-import { SiJavascript, SiPostgresql, SiTableau, SiLinkedin} from "react-icons/si";
+import { SiJavascript, SiPostgresql, SiTableau, SiLinkedin, SiRstudio} from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -23,7 +23,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "SlapAYap";
+export const githubUsername = "WilliamWol";
 
 // Blog link icon (imported above)
 export const Blog = <SiLinkedin />;
@@ -57,8 +57,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    skill: <SiRstudio className="display-4" />,
+    name: "Rstudio",
   },
   {
     id: 5,
