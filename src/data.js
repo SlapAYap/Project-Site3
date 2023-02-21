@@ -33,7 +33,7 @@ export const Blog = <SiLinkedin />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Entry-level data analytics professional; Recently finished the Google Data Analytics Professional Certificate and looking to find a job in the space.";
+  "Technically inclined individual with good communication, math, and computer skills. Seeking a Data Analytics position, coming with an Associates degree in Computer Science and newly aquired Google Data Analytics Certificate.";
 
 /* Skills
  ************************************************************** 
